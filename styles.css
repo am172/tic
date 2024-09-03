@@ -1,0 +1,35 @@
+body {
+    background-color: #f2f2f2; /* لون خلفية خفيف */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #333; /* إضافة إطار حول اللوحة */
+    border-radius: 10px; /* زوايا مدورة */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+.result {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    color: black;
+}
